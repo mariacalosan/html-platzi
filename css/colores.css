@@ -1,0 +1,30 @@
+/*· reglas: son todos los selectores, declarciones,propiedades,valores
+selectores: esta comformado de como identificamos un elemto html
+son capaces  de identificar uno o mas elementos de mi html
+
+declaraciones: es acerca de todo  lo que hacemos con los selectores 
+
+propiedades: son las cosas particulares que podemos hacer con los elementos 
+
+valores:son esas cosas que esperas recibir como variables las propiedades para actuar de forma correcta   ·*/
+   
+            /*·ejemplo de cada regla ( uan regla es esto 
+             hearder¨¨{ 
+                 background: pink;
+             } un selector es  esto ( hearder o la etiqueta que este utilizando)
+             la declaracion es lo que esta dentro de la etiqueta
+             una propieda el atributo de la etiqueta
+             y el valor es lo que le estoy asignando a mi  etiqueta ·*/
+
+    
+    /* selector de etiquetann ejemplo header,section,article,nav */
+
+    /*selector descendente es ulemento hijo ejemplo body es papa de  header ,div nav ol il a  */
+
+    /* selector de id o de clase el selector de clase voy a utilizar mas para no tener que hacer enlaces tan grandes  SE IDENTIFICA CON UN PUNTICO .*/
+
+
+
+header{
+    background: pink;
+}
