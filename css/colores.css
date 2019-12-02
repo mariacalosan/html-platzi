@@ -15,16 +15,23 @@ valores:son esas cosas que esperas recibir como variables las propiedades para a
              la declaracion es lo que esta dentro de la etiqueta
              una propieda el atributo de la etiqueta
              y el valor es lo que le estoy asignando a mi  etiqueta ·*/
+            
+            header {background-color: rgb(207, 80, 101); color: purple
 
-    
+            }
+
+           
+        
+             
+             
     /* selector de etiquetann ejemplo header,section,article,nav */
 
-    /*selector descendente es ulemento hijo ejemplo body es papa de  header ,div nav ol il a  */
+    /*selector descendente es un lemento hijo ejemplo body es papa de  header ,div nav ol il a  */
 
     /* selector de id o de clase el selector de clase voy a utilizar mas para no tener que hacer enlaces tan grandes  SE IDENTIFICA CON UN PUNTICO .*/
 
 
 
-header{
-    background: pink;
-}
+
+/* .link ( mi selector por el momento )*/
+ /*como hacer un selector de id en css ejemplo # portafolio */
