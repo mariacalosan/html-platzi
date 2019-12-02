@@ -8,30 +8,38 @@ propiedades: son las cosas particulares que podemos hacer con los elementos
 
 valores:son esas cosas que esperas recibir como variables las propiedades para actuar de forma correcta   ·*/
    
-            /*·ejemplo de cada regla ( uan regla es esto 
-             hearder¨¨{ 
-                 background: pink;
-             } un selector es  esto ( hearder o la etiqueta que este utilizando)
-             la declaracion es lo que esta dentro de la etiqueta
-             una propieda el atributo de la etiqueta
-             y el valor es lo que le estoy asignando a mi  etiqueta ·*/
+/*·ejemplo de cada regla ( uan regla es esto 
+ hearder¨¨{ 
+  background: pink;
+ } un selector es  esto ( hearder o la etiqueta que este utilizando)
+ una propieda el atributo de la etiqueta
+  y el valor es lo que le estoy asignando a mi  etiqueta ·*/
             
-            header {background-color: rgb(207, 80, 101); color: purple
+ /* .link ( mi selector por el momento )*/
+  /*como hacer un selector de id en css ejemplo # portafolio */
+ /* puedo representar de tres formas los colores en css 
+ 1) se puede representar en una palabra clave ejemolo red o tipos a si 
+ hay colores que tienen numeros o alis pero suelen aparecer en la documentacion 
+  tambien hay transaparen para colores transparentes seria lo mismo que no poner nada pero desues nos va ayudar por si queremos poner color otra manera es usando hexadecimales ,hls o hlsa esto es un atajo rapido */
 
-            }
+body{
+    font-family: 'source sans pro' , sans-serif;
+}
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6{
+    font-family: 'Fjalla one ', sans-serif;
+}
+            
 
            
         
              
              
-    /* selector de etiquetann ejemplo header,section,article,nav */
-
-    /*selector descendente es un lemento hijo ejemplo body es papa de  header ,div nav ol il a  */
-
-    /* selector de id o de clase el selector de clase voy a utilizar mas para no tener que hacer enlaces tan grandes  SE IDENTIFICA CON UN PUNTICO .*/
 
 
 
-
-/* .link ( mi selector por el momento )*/
- /*como hacer un selector de id en css ejemplo # portafolio */
