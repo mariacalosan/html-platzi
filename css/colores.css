@@ -21,6 +21,9 @@ valores:son esas cosas que esperas recibir como variables las propiedades para a
  1) se puede representar en una palabra clave ejemolo red o tipos a si 
  hay colores que tienen numeros o alis pero suelen aparecer en la documentacion 
   tambien hay transaparen para colores transparentes seria lo mismo que no poner nada pero desues nos va ayudar por si queremos poner color otra manera es usando hexadecimales ,hls o hlsa esto es un atajo rapido */
+  /*text-transform: uppercase;
+  text-decoration: dashed;*/
+  /* con url y ('../ me salgo de el archivo de css para meterme a otro arcivo y arrastrar algo de el asta mi css*/
 
 body{
     font-family: 'source sans pro' , sans-serif;
@@ -34,16 +37,41 @@ body{
  h6{
     font-family: 'Fjalla one ', sans-serif;
     font-weight: normal;
+    
     /*font-style: italic;*/
 }
 h1{
     font-size: 40px;
     line-height: 150%;
     letter-spacing: -.2px;
-    text-transform: uppercase;
-    text-decoration: dashed;
+    color: white;
 }
-            
+h1 strong{
+    color: #ef83af;
+}
+.hero{
+    height: 300px;
+    background-image: url('../imagenes/fotodefrida.jpg');
+    background-color: #ffc41e;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x:right;
+}
+.project-details{
+    width: 500px;
+}
+.project-imagecontainer{
+    width: 400px;
+}
+.header{
+    background-color: #ffc41e;
+    color: white;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
 
            
         
