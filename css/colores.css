@@ -57,6 +57,25 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x:right;
 }
+.project{
+    /*border-top: 10px solid pink;
+    border-right: 10px solid black;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid red;
+    si no le asigno color a mi borde este por defecto me va poner mi borde color negro
+     color: blue;
+     border-top-color: black
+     border-top-width: 15px;
+     border-top-style: solid; */
+     border: 1px solid palevioletred;
+     border-radius: 10px;
+     /*border-top-left-radius: 20px;
+     border-top-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;*/
+
+    
+}
 .project-details{
     width: 500px;
 }
