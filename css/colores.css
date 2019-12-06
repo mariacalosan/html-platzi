@@ -45,7 +45,7 @@ h1{
     line-height: 150%;
     letter-spacing: -.2px;
     color: white;
-    margin: 100px 150px 70px 30px;
+    /*margin: 100px 150px 70px 30px;*/
 }
 h1 strong{
     color: #ef83af;
