@@ -27,6 +27,7 @@ valores:son esas cosas que esperas recibir como variables las propiedades para a
 
 body{
     font-family: 'source sans pro' , sans-serif;
+    margin: 0;
 }
 
  h1,
@@ -45,7 +46,7 @@ h1{
     line-height: 150%;
     letter-spacing: -.2px;
     color: white;
-    /*margin: 100px 150px 70px 30px;*/
+    margin: 100px 150px 70px 30px;
 }
 h1 strong{
     color: #ef83af;
@@ -58,6 +59,10 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x:right;
 }
+.portafolio{
+   background: #f1d4ce; 
+   background:#ccfcfd;
+}
 .project{
     /*border-top: 10px solid pink;
     border-right: 10px solid black;
@@ -68,21 +73,24 @@ h1 strong{
      border-top-color: black
      border-top-width: 15px;
      border-top-style: solid; */
-     border: 1px solid palevioletred;
-     border-radius: 10px;
      /*border-top-left-radius: 20px;
      border-top-right-radius: 10px;
      border-bottom-left-radius: 10px;
      border-bottom-right-radius: 10px;*/
-     margin-bottom: 15px;
      /*margin-right: ;
      margin-left: ;
      margin-top: ;*/
+     border: 1px solid palevioletred;
+     border-radius: 10px;
+     margin: 10px;
+     margin-bottom: 15px;
+     padding: 20px ;
+     background: white;
+}
      
 
 
     
-}
 .project-details{
     width: 500px;
 }
