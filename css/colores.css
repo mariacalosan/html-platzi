@@ -52,6 +52,15 @@ h1{
 }
 h1 strong{
     color: #ef83af;
+    
+}
+h2 { 
+    color: #a63668; 
+    text-transform: uppercase;
+    font-family: 'source sans pro' , sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
 }
 .hero{
     height: 300px;
@@ -65,7 +74,8 @@ h1 strong{
 }
 .portafolio{
    background: #f1d4ce; 
-   background:#ccfcfd;
+   padding: 20px;
+   /*background:#ccfcfd;*/
 }
 .project{
     /*border-top: 10px solid pink;
@@ -86,13 +96,34 @@ h1 strong{
      margin-top: ;*/
      border: 1px solid palevioletred;
      border-radius: 10px;
-     margin: 10px;
+   
      margin-bottom: 15px;
      padding: 20px ;
      background: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 }
-     
+.project-date,
+.project-course
+.project-url{
+    margin: 10px 0;
+}
+.project-description{
+    font-size: 100px;
+}
+.project strong{
+    font-family: 'fjalla one', sans-serif ;
+}
+/*.project-date{
+    margin 10px 0*/
 
+     
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
 
     
 .project-details{
