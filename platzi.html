@@ -34,62 +34,94 @@
     <!-- HEADER representa el en cabezado de un documento el elemento de un documento  para mi pagina actual  -->
 
     <header class="header"> 
+        <div class="container">
+
+            <figure class="logo">
+                <img src="imagenes/lafrida.png"width="85" height="85"  alt="logo de http://camilalopez.com" />
+                
+            </figure>
+            
+            <!--NAV etiqueta de navegacion y conntiene enlaces a otros documentos o partes dentro de el documento actual -->
+            
+            <nav class="menu">
+                <!--(OL para listas ordenadas) (UL para listas desordenadas -->
+                
+                   <ol>
+                    <!--LI representa un elemento de la lista -->
+                    
+                    <li>
+                        
+                        <!--si mi etiqueta A  tiene un atributo como href representa un vinculo pero si mi etiqueta no tiene ningun  atributo  es solo un texto  -->
+                        <a class="link" href="#portafolio">portafolio</a>
+                    </li>
+                  <li>
+                        <a class="link" href="#eventos">mas sobre frida </a>
+                        
+                    </li>
+                    <li>
+                        <a class="link" href="#contacto"> creamos algo juntos </a>
+                    </li>
+                   </ol>
+            </nav>
+        </div>
         
+    </header>
         <!--DIV caja o cuadro donde va imformacion-->
 
         <!-- ALT sirve para cuando la imagen no carga salga un texto-->
         <!--SRC atrivuto de el link de la imagen que quiero poner -->
         
-        <figure class="logo">
-            <img src="imagenes/lafrida.png"width="85" height="85"  alt="logo de http://camilalopez.com" />
-            
-        </figure>
-        
-        <!--NAV etiqueta de navegacion y conntiene enlaces a otros documentos o partes dentro de el documento actual -->
-        
-        <nav class="menu">
-            <!--(OL para listas ordenadas) (UL para listas desordenadas -->
-            
-               <ol>
-                <!--LI representa un elemento de la lista -->
-                
-                <li>
-                    
-                    <!--si mi etiqueta A  tiene un atributo como href representa un vinculo pero si mi etiqueta no tiene ningun  atributo  es solo un texto  -->
-                    <a class="link" href="./portafolio/index.html">portafolio</a>
-                </li>
-                <li>
-                    <a class="link" href="#eventos">mas sobre frida </a>
-                    
-                </li>
-                <li>
-                    <a class="link" href="#contacto"> acontecimientos importantes </a>
-                </li>
-               </ol>
-        </nav>
         
         
-    </header>
     <!--etiqueta SECTION esta representa en las secciones -->
 
+    <!--el STRONG se utiliza para poner negrita a mi texto -->
+
+    <!--BR salto en linea no necesita cierre ella misma se cierra -->
+
+    <!--H1 o H6 son titulos el 1 es el principal y los demas son de poca relevancia -->
     <section class="hero">
-        <!--el STRONG se utiliza para poner negrita a mi texto -->
-
-        <!--BR salto en linea no necesita cierre ella misma se cierra -->
-
-        <!--H1 o H6 son titulos el 1 es el principal y los demas son de poca relevancia -->
+        <div class="container">
         <h1>
-            Hola soy <strong>maria Camila</strong><br>Estoy haciendo este proyecto   <strong> <br> de frida kahlo 
-               con mucho amor </strong>
-        </h1>
+            Hola soy <strong>maria Camila</strong><br>Estoy        
+            haciendo este proyecto   <strong> <br> de frida kahlo 
+                           con mucho amor </strong>
+                    </h1>
+        </div>
         <!--WIDTH atributo de anchura-->
     </section>
 
-        <!--img src="imagenes/mi_foto.jpg" width="500" height="400" alt="imagen principal de el sitio ">
-        </sectio>-->
+        <!--img class="hero-imge" src="imagenes/fotodefrida.jpg" width="500" height="400" alt="imagen principal de el sitio "-->
+        </sectio>>
 
         <section id="portafolio" class="portafolio">
-
+            <div class="container">
+                    <h2>Portafolio (la frida)</h2>
+                    
+                    
+                    <article class="project">
+                        <div class="project-details">
+                            
+                            <h3 class=" project-title">la historia de frida</h3>
+                            <h6 class="project-texto">La Frida </h6>
+                            <p class="project-date"><small><strong>Fecha:</strong>28/11/2019</small></p>
+                            <p>
+                                <small > este es mi primer proyecto:lo estoy haciendo con platzi aprendo <strong>Leonidas Esteban </strong> </small>
+                            </p>
+                            <p class="project-descripcion">
+                                Hace muy poco inice a aprender a programar y la verdad me esta interesando
+                                        demasiado</strong> Este es un muy buen proyecto
+                            </p>
+                        </div>
+                        <figure class="project-imageContainer">
+                                            
+                            <img width="400" src="imagenes/frasefrida.jpg" alt="proyecto de mi aprendizaje ">
+                         </figure>           
+                    </article>
+                    
+                    
+                </div>
+            </section>
             <!--HEIGHT atributo de altura -->
 
             <!--etiqueta P  representa un parrafo -->
@@ -97,48 +129,84 @@
             <!-- ARTICLE  etiquta de articulo o imformacion -->
 
 
+        <div class=" container">
+            <h2 class="event-list-title">Mas sobre mi experiencia</h2>
 
-            <h2>Portafolio (la frida)</h2>
-            
-            
-            <article class="project">
-                <div class="project-details">
-                    
-                    <h3 class=" project-title">la historia de frida</h3>
-                    <h6 class="project-texto">La Frida </h6>
-                    <p class="project-date"><small><strong>Fecha:</strong>28/11/2019</small></p>
-                    <p>
-                        <small > este es mi primer proyecto:lo estoy haciendo con platzi aprendo <strong>Leonidas Esteban </strong> </small>
-                    </p>
-                    <p class="project-descripcion">
-                        Hace muy poco inice a aprender a programar y la verdad me esta interesando
-                                demasiado</strong> Este es un muy buen proyecto
-                    </p>
-                </div>
-                <figure class="project-imageContainer">
-                                    
-                    <img width="400" src="imagenes/frasefrida.jpg" alt="proyecto de mi aprendizaje ">
-                 </figure>           
-            </article>
-        </section>
-        <section class="project">
-            <section id="eventos">
-                <h2>Mas sobre mi experiencia</h2>
+        </div>
+             
+        <section id="eventos" class="event-list">
+            <div class="container">
+
                 <article class="event">
                     <figure class="event-imageComtainer">
                         <img src="imagenes/cuadrodefrida.jpg" width="400" />
                     </figure>
-                    <h3 class="event-title">Aprendo desde casa con <strong>Platzi</strong></h3>
-                    <p class="event-description"> es mi primera vez en platzi me gane una beca desde facebook y estoy aprendiendo con leonidas esteban
-                        me ha parecido realmente sactisfactorio este proyecto de crear mi primera pagina para ser sinceros
-                        no pense que lo fuera a lograr realmente me ha gustado demasiado </p>
-                        <a class="event-url"   href="https://youtu.be/QVxzkhgSjXc" target="_blank"> escucha esta canción</a>
-                    </section>
-                        
+                    <div class="event-detail">
+                            <h3 class="event-title">Aprendo desde casa con <strong>Platzi</strong></h3>
+                            <p class="event-description"> es mi primera vez en platzi me gane una beca desde facebook y estoy aprendiendo con leonidas esteban
+                                me ha parecido realmente sactisfactorio este proyecto de crear mi primera pagina para ser sinceros
+                                no pense que lo fuera a lograr realmente me ha gustado demasiado </p>
+                                <a class="event-url"   href="https://youtu.be/QVxzkhgSjXc" target="_blank"> escucha esta canción</a>
+                    </div>   
 
             </article>
+            <article class="event">
+                    <figure class="event-imageComtainer">
+                        <img src="imagenes/cuadrodefrida.jpg" width="400" />
+                    </figure>
+                    <div class="event-detail">
+                            <h3 class="event-title">Aprendo desde casa con <strong>Platzi</strong></h3>
+                            <p class="event-description"> es mi primera vez en platzi me gane una beca desde facebook y estoy aprendiendo con leonidas esteban
+                                me ha parecido realmente sactisfactorio este proyecto de crear mi primera pagina para ser sinceros
+                                no pense que lo fuera a lograr realmente me ha gustado demasiado </p>
+                                <a class="event-url"   href="https://youtu.be/QVxzkhgSjXc" target="_blank"> escucha esta canción</a>
+                    </div>   
+
+            </article>
+            <article class="event">
+                    <figure class="event-imageComtainer">
+                        <img src="imagenes/cuadrodefrida.jpg" width="400" />
+                    </figure>
+                    <div class="event-detail">
+                            <h3 class="event-title">Aprendo desde casa con <strong>Platzi</strong></h3>
+                            <p class="event-description"> es mi primera vez en platzi me gane una beca desde facebook y estoy aprendiendo con leonidas esteban
+                                me ha parecido realmente sactisfactorio este proyecto de crear mi primera pagina para ser sinceros
+                                no pense que lo fuera a lograr realmente me ha gustado demasiado </p>
+                                <a class="event-url"   href="https://youtu.be/QVxzkhgSjXc" target="_blank"> escucha esta canción</a>
+                    </div>   
+
+            </article>  <article class="event">
+                    <figure class="event-imageComtainer">
+                        <img src="imagenes/cuadrodefrida.jpg" width="400" />
+                    </figure>
+                    <div class="event-detail">
+                            <h3 class="event-title">Aprendo desde casa con <strong>Platzi</strong></h3>
+                            <p class="event-description"> es mi primera vez en platzi me gane una beca desde facebook y estoy aprendiendo con leonidas esteban
+                                me ha parecido realmente sactisfactorio este proyecto de crear mi primera pagina para ser sinceros
+                                no pense que lo fuera a lograr realmente me ha gustado demasiado </p>
+                                <a class="event-url"   href="https://youtu.be/QVxzkhgSjXc" target="_blank"> escucha esta canción</a>
+                    </div>   
+
+            </article>
+            
+            </div>
         </section>
-        <section id="contacto " class="contact">
+        <section id="contacto" class="contact">
+            <div class="container">
+
+                <form action="/suscripcion/" class="form-email">
+                    <h3>¿Creamos algo juntos?</h3>
+                    <input type="text" placeholder="dejame tu email" value="@gmail.com" id="email">
+                    <button>enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://youtube.com/leonidasesteban" class="social-link youtube" ></a>
+                    <a href="https://facebook.com/camila.lopez" class="social-link facebook"></a>
+                    <a href="https://instagram.com/mariacamilaj" class="social-link instagram"></a>
+                    <a href="https://github.com/camilalopez" class="social-link github"></a>
+                </div>
+            </div>
+        </section>
             <!--etiqueta FORM  etiqueta que representa los formularios de algunos de los cuales representan valores y se pueden enviar a un servidor -->
 
             <!--atributo ACTION atributo de ruta de donde voy a enviar mi imformacion dentro de unas subscripciones o en un correo electronico   -->
@@ -153,20 +221,17 @@
 
             <!--atibuto id atributo de identificador -->
 
-            <form action="/suscripcion/" class="form-email">
-                <h3>¿Creamos algo juntos?</h3>
-                <input type="text" placeholder="dejame tu email" value="@gmail.com" id="email">
-                <button>enviar</button>
-            </form>
-        </section>
-            <footer class="footer">
-                <div>
-                    <p>curso de desarrolo web online 2019 <img src="imagenes/diadelosmuertos.jpg" width="100" heigt="100" alt="frida"></p>
-                </div>
-                <div>
-                    <p>
-                        designed width <\3 by <a href=" https://thespianartist">@thespianartist<\a>"
-                    </p>
+            <footer  id="creamos algo juntos "class="footer">
+                <div class="container">
+
+                    <div>
+                        <p>curso de desarrolo web online 2019 <img src="imagenes/diadelosmuertos.jpg" width="100" heigt="100" alt="frida"></p>
+                    </div>
+                    <div>
+                        <p>
+                            designed width <\3 by <a href=" https://thespianartist">@thespianartist</a>
+                        </p>
+                    </div>
                 </div>
             </footer>
         

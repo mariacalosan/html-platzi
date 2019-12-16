@@ -71,10 +71,15 @@ h2 {
     background-position-x:right;
     display:  flex;
     align-items: center;
+    justify-content: space-between;
+   
+}
+.hero-image{
+    object-fit: cover;
 }
 .portafolio{
-   background: #f1d4ce; 
-   padding: 20px;
+   background: white; 
+   padding: 15px;
    /*background:#ccfcfd;*/
 }
 .project{
@@ -206,6 +211,121 @@ figure{
 .footer a {
     color: white;
 }
+
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.event{
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: white;
+   
+
+}
+.event img{
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+}
+.event-detail{
+    margin: 20px 40px;
+    margin-top: -40px;
+    background-color: wheat ;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    
+}
+.event-description{
+    text-align: left;
+}
+.event-url{
+    border: 1px solid;
+    padding:  5px 20px ;
+    text-decoration: none;
+    color: red;
+    border-radius: 5px;
+}
+.event-list-title{
+    margin-left: 20px;
+    
+}
+.contact{
+    background-color: pink;
+    color:white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social{
+  
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px ;
+}
+.social-link.youtube{
+    background-image: url('../imagenes/youtube.png');
+    
+}
+.social-link.facebook{
+    background-image: url('../imagenes/facebook.jpg');
+    
+}
+.social-link.instagram{
+    background-image: url('../imagenes/instagram.jpg');
+    
+}
+.social-link.github{
+    background-image: url('../imagenes/github.png');
+    
+}
+.form-email input{
+    border-color: violet;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px  20px 10px 25px;
+    background-image: url('../imagenes/correo.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+
+}
+.form-email button{
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+    /*margin: 10px auto;*/
+}
+.form-email h3{
+    font-family: 'source sans pro' , sans-serif;
+}
+.container{
+   /*border: 1px solid red ;*/
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+
+}
+
 
 
 
