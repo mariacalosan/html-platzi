@@ -323,7 +323,11 @@ figure{
     flex-wrap: inherit;
 
 }
-
+@media screen and (max-width: 768px){
+    body{
+        border: solid 10px purple
+    }
+}
 
 
 
