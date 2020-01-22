@@ -54,6 +54,8 @@ h1 strong{
     color: #ef83af;
     
 }
+h4,
+h3,
 h2 { 
     color: #a63668; 
     text-transform: uppercase;
@@ -64,14 +66,15 @@ h2 {
 }
 .hero{
     height: 300px;
-    background-image: url('../imagenes/fotodefrida.jpg');
+    /*background-image: url('../imagenes/fotodefrida.jpg');*/
     background-color: #ffc41e;
-    background-size: 500px 300px;
-    background-repeat: no-repeat;
-    background-position-x:right;
+    /*background-size: 500px 300px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x:right;*/
     display:  flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
    
 }
 .hero-image{
@@ -108,6 +111,7 @@ h2 {
      display: flex;
      align-items: center;
      justify-content: space-between;
+     flex-wrap: wrap;
 }
 .project-date,
 .project-course
@@ -132,19 +136,23 @@ h2 {
 
     
 .project-details{
-    width: 500px;
+    width: 40%;
 }
 .project-imagecontainer{
-    width: 400px;
+    width: 40%;
+}
+.project-imagecontainer img {
+    max-width: 100%;
+    
 }
 .header{
     background-color: #ffc41e;
     color: white;
     display: flex;
     height: 90px;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
 }
 ol,
 ul{
@@ -204,6 +212,7 @@ figure{
     /*display: flex;*/
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer img{
     vertical-align: middle;
@@ -228,8 +237,8 @@ figure{
 
 }
 .event img{
-    width: 480px;
-    height: 250px;
+    width: 500px;
+    height: 400px;
     object-fit: cover;
 }
 .event-detail{
@@ -262,6 +271,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social-link{
@@ -315,7 +325,9 @@ figure{
 }
 .container{
    /*border: 1px solid red ;*/
-    width: 1000px;
+    max-width: 1000px;
+     /*width: 100%; con la propiedad de flex le estoy diciendo que tome todo el ancho disponible que tengo dentro de mi elemento  */
+     flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -323,11 +335,73 @@ figure{
     flex-wrap: inherit;
 
 }
-@media screen and (max-width: 768px){
-    body{
-        border: solid 10px purple
+/*desktop first que empiece con  un media querie mas grande */
+@media screen and (max-width:1024px) {
+
+
+}
+@media screen and (max-width: 767px){
+    .header{
+        display: block;
+        height: auto;
+    }
+    .header ol {
+        display: block;
+    }
+    .header ol li {
+        height: 50px;
+    }
+    .header a {
+        justify-content: center;
+    }
+    .header .logo {
+        text-align: center;
+    }
+    .project{
+        display: block;
+    }
+    .project-imagecontainer{
+        width: auto;
+      text-align: center;
+    }
+    .project-details{
+        width: auto;
+        /* font-size: 10px;*/
+    }
+    .project-course, .project-date, .project-url{
+        margin: .3em 0;
+    }
+   
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+    .project-url {
+        font-size: 1em;
+    }
+    .project-course{
+        font-size: .7em;
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .project-description{
+        font-size: 1em; 
     }
 }
+@media screen and (max-width: 480px) {
+    .project-details{
+        width: auto;
+        font-size: 16px;
+    }
+
+} 
+@media screen and (max-width: 320px){
+
+}  
+
+/*un ipadd tiene 768 pixles de ancho */
+/* initial es el valor nicial o valor por defecto que aya tenido una etiqueta */
 
 
 
